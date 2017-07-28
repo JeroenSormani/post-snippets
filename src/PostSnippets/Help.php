@@ -108,4 +108,5 @@ class Help
 	private function content( $tab ) {
 		return View::render( $tab );
 	}
+
 }
