@@ -30,7 +30,6 @@ class WPEditor
 		add_action( 'admin_init', array( &$this, 'enqueueAssets' ) );
 	}
 
-
 	// -------------------------------------------------------------------------
 	// WordPress Editor Buttons
 	// -------------------------------------------------------------------------
@@ -109,7 +108,6 @@ class WPEditor
 		return $plugins;
 	}
 
-
 	/**
 	 * Adds a QuickTag button to the HTML editor.
 	 *
@@ -138,7 +136,6 @@ class WPEditor
         <?php
 		echo "\n<!-- END: Add QuickTag button for Post Snippets -->\n";
 	}
-
 
 	// -------------------------------------------------------------------------
 	// JavaScript / jQuery handling for the post editor
@@ -291,4 +288,5 @@ class WPEditor
 		}
 		return $variable;
 	}
+
 }

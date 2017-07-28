@@ -106,4 +106,5 @@ class Shortcode
 
 		return addslashes( $content );
 	}
+
 }

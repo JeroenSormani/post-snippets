@@ -123,7 +123,6 @@ class PostSnippets
 		);
 	}
 
-
 	// -------------------------------------------------------------------------
 	// Helpers
 	// -------------------------------------------------------------------------
@@ -249,6 +248,7 @@ class PostSnippets
 			define( 'POST_SNIPPETS_DISABLE_PHP', true );
 		}
 	}
+
 }
 
 add_action( 'plugins_loaded', array( 'PostSnippets', 'getInstance' ) );
