@@ -27,4 +27,5 @@ class View
 
 		return $view;
 	}
+
 }
